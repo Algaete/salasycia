@@ -1,0 +1,580 @@
+---
+import '../styles/global.css';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Nuestros Servicios - Salas y Cía. Ltda.</title>
+		<meta name="description" content="Servicios profesionales de auditoría, asesoría legal y tributaria, consultoría administrativa y outsourcing contable-administrativo." />
+	</head>
+	<body class="bg-gray-50">
+		<!-- Header -->
+		<header class="bg-white shadow-sm sticky top-0 z-50 border-b-4 border-[#8B2323]">
+			<nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="flex justify-between items-center h-20">
+					<div class="flex items-center gap-4">
+						<a href="/">
+							<img src="/logo-salasycia.svg" alt="Logo Salas y Cía." class="h-14 w-auto" />
+						</a>
+					</div>
+					<div class="hidden md:block">
+						<div class="ml-10 flex items-baseline space-x-4">
+							<a href="/#inicio" class="text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+							<a href="/servicios" class="text-blue-900 font-medium px-3 py-2 rounded-md text-sm">Servicios</a>
+							<a href="/#equipo" class="text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium">Equipo</a>
+							<a href="/reglamento-interno" class="text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium">Reglamento Interno</a>
+							<a href="/#contacto" class="text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Hero Section -->
+		<section class="bg-[#8B2323] text-white py-16">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center">
+					<img src="/logo-salasycia.svg" alt="Logo Salas y Cía." class="mx-auto mb-6 h-20 w-auto" />
+					<h1 class="text-4xl md:text-5xl font-bold mb-4">
+						Nuestros Servicios Profesionales
+					</h1>
+					<p class="text-xl text-[#F5E3E3]">
+						Soluciones integrales para el crecimiento y desarrollo de su empresa
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Introducción -->
+		<section class="py-16 bg-white">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-6">Enfoque Integral</h2>
+					<p class="text-lg text-gray-600 mb-6">
+						Nuestra firma postula que la relación con las instituciones que solicitan nuestros servicios, 
+						debe ser enfocada de tal manera que se transforme en un apoyo constante al crecimiento y 
+						rentabilidad de los negocios del cliente, en lo aplicable a su segmento de actuación.
+					</p>
+					<p class="text-base text-gray-600">
+						Como consecuencia de lo anterior, se han diseñado esquemas de trabajo y técnicas de acción 
+						que permitan reflejar la visión de conjunto de nuestros clientes, de manera que nuestra 
+						actuación profesional se traduzca en un real aporte a la eficacia y eficiencia institucional.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Áreas de Servicios -->
+		<section class="py-16 bg-gray-50">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-4">Áreas de Especialización</h2>
+					<p class="text-lg text-gray-600">
+						Para una mejor atención a nuestros clientes, hemos estructurado la empresa en Áreas especializadas:
+					</p>
+				</div>
+				
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="bg-white p-6 rounded-lg shadow-md">
+						<div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+							<svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+							</svg>
+						</div>
+						<h3 class="text-lg font-semibold text-gray-900 mb-2">Área de Auditoría</h3>
+						<p class="text-gray-600 text-sm">
+							Auditoría Financiera, Operativa y de Proyectos con enfoque en la detección de debilidades y evaluación de riesgos.
+						</p>
+					</div>
+					
+					<div class="bg-white p-6 rounded-lg shadow-md">
+						<div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+							<svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+							</svg>
+						</div>
+						<h3 class="text-lg font-semibold text-gray-900 mb-2">Asesoría Legal y Tributaria</h3>
+						<p class="text-gray-600 text-sm">
+							Servicios especializados en política fiscal, constitución de sociedades y defensa del contribuyente.
+						</p>
+					</div>
+					
+					<div class="bg-white p-6 rounded-lg shadow-md">
+						<div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+							<svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+							</svg>
+						</div>
+						<h3 class="text-lg font-semibold text-gray-900 mb-2">Consultoría Administrativa</h3>
+						<p class="text-gray-600 text-sm">
+							Consultoría gerencial, análisis económico y sistemas de control interno para optimizar la gestión empresarial.
+						</p>
+					</div>
+					
+					<div class="bg-white p-6 rounded-lg shadow-md">
+						<div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+							<svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+							</svg>
+						</div>
+						<h3 class="text-lg font-semibold text-gray-900 mb-2">Outsourcing Contable</h3>
+						<p class="text-gray-600 text-sm">
+							Servicio integral de contabilidad, contraloría y gestión administrativa para empresas en desarrollo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Área de Auditoría -->
+		<section id="auditoria" class="py-16 bg-white">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-4">Área de Auditoría</h2>
+					<p class="text-lg text-gray-600">
+						Esta Área está especialmente destinada a los tres rubros fundamentales de la Auditoría: 
+						Auditoría Financiera, Auditoría Operativa y Auditoría de Proyectos.
+					</p>
+				</div>
+
+				<div class="space-y-12">
+					<!-- Auditoría Financiera -->
+					<div class="bg-gray-50 p-8 rounded-lg">
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Auditoría Financiera</h3>
+						<p class="text-gray-700 mb-6">
+							Nuestros servicios están destinados básicamente a expresar una opinión, respecto a si los Estados 
+							Financieros examinados presentan razonablemente la situación financiera de la empresa y el resultado 
+							de sus operaciones y flujos de efectivo, de conformidad con principios contables generalmente aceptados, 
+							incluyendo las Normas Internacionales de Información Financiera (IFRS).
+						</p>
+						
+						<div class="grid md:grid-cols-2 gap-6">
+							<div>
+								<h4 class="text-lg font-semibold text-gray-800 mb-3">Servicios Ofrecidos:</h4>
+								<ul class="space-y-2 text-gray-700">
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Auditoría a estados financieros
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Revisiones parciales a estados financieros
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Emisión de certificaciones sobre información financiero/económica
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Procesos de Due diligence
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Estudios especiales y peritajes
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Investigación de fraudes e irregularidades
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Asesoría para inscripción en Superintendencia de Valores y Seguros
+									</li>
+									<li class="flex items-start">
+										<span class="text-blue-600 mr-2">•</span>
+										Asesoría para inscripción en Bolsas de Valores
+									</li>
+								</ul>
+							</div>
+							<div class="bg-blue-50 p-6 rounded-lg">
+								<h4 class="text-lg font-semibold text-blue-900 mb-3">Beneficios Adicionales</h4>
+								<p class="text-blue-800">
+									Estos servicios brindan, además, la posibilidad de detectar debilidades en los sistemas vigentes 
+									y evaluar la posibilidad de que sucedan irregularidades en el manejo financiero de la empresa. 
+									Para alcanzar estos objetivos se aplican las pruebas selectivas necesarias a una serie de operaciones 
+									y movimientos considerados representativos.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Auditoría Operativa -->
+					<div class="bg-gray-50 p-8 rounded-lg">
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Auditoría Operativa</h3>
+						<p class="text-gray-700 mb-6">
+							Este servicio está dirigido a examinar la gestión de la empresa con el propósito de evaluar sus resultados 
+							en relación a las metas prefijadas, los recursos humanos y materiales utilizados, la organización, empleo 
+							y coordinación de dichos recursos y controles establecidos sobre la gestión.
+						</p>
+						<p class="text-gray-700">
+							Además, realizamos análisis y evaluaciones sobre la eficiencia en la utilización de las tecnologías de 
+							información, desde un punto de vista gerencial y operacional.
+						</p>
+					</div>
+
+					<!-- Auditoría de Proyectos -->
+					<div class="bg-gray-50 p-8 rounded-lg">
+						<h3 class="text-2xl font-bold text-gray-900 mb-4">Auditoría de Proyectos</h3>
+						<p class="text-gray-700 mb-6">
+							En esta materia, nuestra acción está orientada principalmente a expresar una opinión acerca de la 
+							ejecución financiera mediante préstamos de entidades financieras y a cargo del deudor o ejecutante del proyecto.
+						</p>
+						<p class="text-gray-700">
+							En este tipo de auditorías, nuestra labor está destinada a emitir una opinión respecto al origen y aplicación 
+							de los fondos, al cumplimiento por parte del ejecutante de las cláusulas de carácter contable-financiero 
+							incluidas en los contratos y a evaluar el proceso de ejecución del programa proyectado.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Área de Asesoría Legal y Tributaria -->
+		<section id="asesoria-legal" class="py-16 bg-gray-50">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-4">Área de Asesoría Legal y Tributaria</h2>
+					<p class="text-lg text-gray-600">
+						Se cubren todos los aspectos vinculados a la política y tratamiento fiscal con un equipo de profesionales 
+						especializados, compuesto de Abogados y Contadores Auditores.
+					</p>
+				</div>
+
+				<div class="bg-white p-8 rounded-lg shadow-md">
+					<h3 class="text-2xl font-bold text-gray-900 mb-6">Servicios Ofrecidos</h3>
+					<div class="grid md:grid-cols-2 gap-8">
+						<div class="space-y-4">
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Planeamiento e investigación</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Constitución, modificación y reestructuración de sociedades</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Liquidación de sociedades</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Asesorías legales a directores de sociedades</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Estudio e información comparada de legislación nacional y extranjera</h4>
+								</div>
+							</div>
+						</div>
+						<div class="space-y-4">
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Información periódica sumaria y comentada de legislación y jurisprudencia impositiva, laboral, previsional y otras materias de interés empresarial</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Consultas y asesoría tributaria permanente u ocasional</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Defensa del contribuyente en todas las esferas inherentes</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Presentaciones administrativas a los servicios gubernamentales</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Liquidación de impuestos</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Área de Consultoría -->
+		<section id="consultoria" class="py-16 bg-white">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-4">Área de Consultoría Administrativa, Económica y de Ingeniería</h2>
+					<p class="text-lg text-gray-600">
+						Nuestro trabajo de Consultoría Gerencial se desarrolla principalmente en las siguientes temáticas:
+					</p>
+				</div>
+
+				<div class="space-y-8">
+					<!-- Organización y Administración -->
+					<div class="bg-gray-50 p-6 rounded-lg">
+						<h3 class="text-xl font-bold text-gray-900 mb-4">Organización y Administración General de los Recursos</h3>
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis y evaluación de las políticas de la empresa
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis, evaluación y diseño de la estructura orgánica
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Planificación operacional económica y financiera
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Formulación de presupuestos
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Elaboración de manuales de funciones
+							</li>
+						</ul>
+					</div>
+
+					<!-- Sistemas de Control -->
+					<div class="bg-gray-50 p-6 rounded-lg">
+						<h3 class="text-xl font-bold text-gray-900 mb-4">Sistemas de Control Interno e Información</h3>
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis, evaluación y diseño de procedimientos administrativo-contables
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis, evaluación y diseño de procedimientos de control interno
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Confección de manuales e instructivos para el proceso administrativo
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis, evaluación y diseño de sistemas contables y de información estadística
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Diseño y puesta en práctica de sistemas de información para la dirección
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis, evaluación, diseño e implementación de sistemas de costos
+							</li>
+						</ul>
+					</div>
+
+					<!-- Administración de RRHH -->
+					<div class="bg-gray-50 p-6 rounded-lg">
+						<h3 class="text-xl font-bold text-gray-900 mb-4">Administración de Recursos Humanos</h3>
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Análisis y evaluación de las políticas de personal
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Evaluación de cargos
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Diseño de sistemas de remuneraciones
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Diseño de sistemas de rotación y ascensos del personal
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Sistema de calificaciones
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Reclutamiento y selección de personal
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Evaluación psicológica
+							</li>
+						</ul>
+					</div>
+
+					<!-- Análisis Económico -->
+					<div class="bg-gray-50 p-6 rounded-lg">
+						<h3 class="text-xl font-bold text-gray-900 mb-4">Análisis Económico</h3>
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Investigaciones sobre variables económicas a nivel global, sectorial, regional y local
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Elaboración de diagnósticos, formulación estratégica, planes y proyectos en la perspectiva sectorial y empresarial
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Estudios de factibilidad y evaluación a nivel macroeconómico de actividades o proyectos productivos o de infraestructura
+							</li>
+							<li class="flex items-start">
+								<span class="text-blue-600 mr-2">•</span>
+								Tasaciones de bienes raíces y maquinarias
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Área de Outsourcing -->
+		<section id="outsourcing" class="py-16 bg-gray-50">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-4">Outsourcing Contable-Administrativo y Contraloría</h2>
+					<p class="text-lg text-gray-600">
+						Esta área está orientada a prestar un servicio integral a aquellas empresas que, por encontrarse 
+						en proceso de iniciación de actividades, o en procesos de desarrollo de sus operaciones, no poseen 
+						una estructura administrativa que les permita satisfacer sus requerimientos de información y gestión.
+					</p>
+				</div>
+
+				<div class="bg-white p-8 rounded-lg shadow-md">
+					<h3 class="text-2xl font-bold text-gray-900 mb-6">Servicios Ofrecidos</h3>
+					<div class="grid md:grid-cols-2 gap-6">
+						<div class="space-y-3">
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Iniciación de actividades, obtención de RUT y tramitación municipal</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Contabilidad y teneduría de libros</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Emisión de estados contables mensuales y/o periódicos</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Contralorías de procedimientos administrativo-contables</h4>
+								</div>
+							</div>
+						</div>
+						<div class="space-y-3">
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Preparación de facturas, órdenes de pago, realización de cobranzas y pagos por cuenta del cliente</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Liquidación de remuneraciones, aportes patronales e impuestos mensuales</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Inventarios físicos y arqueo de valores</h4>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<span class="text-blue-600 mr-3 mt-1">•</span>
+								<div>
+									<h4 class="font-semibold text-gray-800">Preparación y mantención confidencial del Rol Privado de la plana ejecutiva</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA Section -->
+		<section class="py-16 bg-[#8B2323] text-white">
+			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+				<h2 class="text-3xl font-bold mb-4">¿Necesitas nuestros servicios?</h2>
+				<p class="text-xl mb-8 text-[#F5E3E3]">
+					Contáctanos para discutir cómo podemos ayudarte a optimizar tu empresa
+				</p>
+				<div class="flex flex-col sm:flex-row gap-4 justify-center">
+					<a href="/#contacto" class="bg-white text-[#8B2323] px-8 py-3 rounded-lg font-semibold hover:bg-[#F5E3E3] transition duration-300">
+						Solicitar Cotización
+					</a>
+					<a href="tel:+56223651570" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#8B2323] transition duration-300">
+						Llamar Ahora
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-900 text-white py-12">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid md:grid-cols-3 gap-8">
+					<div>
+						<h5 class="text-xl font-bold mb-4">Salas y Cía. Ltda.</h5>
+						<p class="text-gray-300 mb-4">
+							Más de 40 años de experiencia en auditoría y consultoría empresarial, 
+							apoyando el crecimiento y desarrollo de empresas en Chile.
+						</p>
+						<p class="text-sm text-gray-400">
+							RUT: 85.088.800-0<br>
+							Representante Legal: Jorge Gastón Salas Sanhueza
+						</p>
+					</div>
+					<div>
+						<h5 class="text-lg font-semibold mb-4">Servicios</h5>
+						<ul class="space-y-2 text-gray-300">
+							<li>Auditoría de Estados Financieros</li>
+							<li>Consultoría Empresarial</li>
+							<li>Asesoría Tributaria</li>
+							<li>Evaluación de Control Interno</li>
+							<li>Due Diligence</li>
+						</ul>
+					</div>
+					<div>
+						<h5 class="text-lg font-semibold mb-4">Contacto</h5>
+						<div class="space-y-2 text-gray-300">
+							<p>Av. Alfredo Barros Errázuriz 1954<br>Oficina 507, Providencia, Santiago</p>
+							<p>Tel: +56 2 2365 1570</p>
+							<p>Email: jsalas@salasycia.cl</p>
+							<p>Web: www.salasycia.cl</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+					<p>&copy; 2024 Salas y Cía. Ltda. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html> 
